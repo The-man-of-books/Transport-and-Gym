@@ -20,3 +20,9 @@ Welcome to SurgeTransit, a modern, responsive landing page that combines two ess
 | HTML5          | Semantic structure             
 | Tailwind CSS   | Styling and responsive layout  
 | JavaScript     | Interactivity and DOM control  
+
+##  Folder Structure
+-.History
+-Images
+-ReadMe
+-Index.html
