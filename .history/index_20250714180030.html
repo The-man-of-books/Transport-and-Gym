@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gym & Transport Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="font-sans">
+
+<!-- HERO SECTION -->
+<div class="flex flex-col md:flex-row h-screen">
+  <!-- Gym Hero -->
+  <section class="md:w-1/2 w-full h-1/2 md:h-full bg-gray-900 text-white flex flex-col justify-between items-center p-6">
+    <!-- Gym Nav -->
+    <nav class="w-full text-sm flex justify-center gap-4 pt-2">
+      <a href="#gym-services" class="hover:text-blue-400">Services</a>
+      <a href="#gym-pricing" class="hover:text-blue-400">Pricing</a>
+      <a href="#gym-testimonials" class="hover:text-blue-400">Testimonials</a>
+      <a href="#gym-gallery" class="hover:text-blue-400">Gallery</a>
+      <a href="#gym-contact" class="hover:text-blue-400">Contact</a>
+    </nav>
+    <!-- Gym Intro -->
+    <div class="flex-1 flex flex-col justify-center items-center">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">🔥 Get Fit with Surge Gym</h1>
+      <p class="mb-4 text-center max-w-sm">Join our community and transform your body. Personal coaching, strength training, and fitness programs.</p>
+      <a href="#gym-contact" class="bg-blue-500 px-6 py-2 rounded mt-2 hover:bg-blue-700 transition">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Transport Hero -->
+  <section class="md:w-1/2 w-full h-1/2 md:h-full bg-blue-50 text-gray-900 flex flex-col justify-between items-center p-6">
+    <!-- Transport Nav -->
+    <nav class="w-full text-sm flex justify-center gap-4 pt-2">
+      <a href="#transport-services" class="hover:text-blue-600">Services</a>
+      <a href="#transport-pricing" class="hover:text-blue-600">Pricing</a>
+      <a href="#transport-testimonials" class="hover:text-blue-600">Testimonials</a>
+      <a href="#transport-gallery" class="hover:text-blue-600">Gallery</a>
+      <a href="#transport-contact" class="hover:text-blue-600">Contact</a>
+    </nav>
+    <!-- Transport Intro -->
+    <div class="flex-1 flex flex-col justify-center items-center">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">🚛 Swift Surge Transport</h1>
+      <p class="mb-4 text-center max-w-sm">Fast, reliable transport & delivery services. Book a ride, schedule a move or send a package today.</p>
+      <a href="#transport-contact" class="bg-gray-900 text-white px-6 py-2 rounded mt-2 hover:bg-gray-700 transition">Book Now</a>
+    </div>
+  </section>
+</div>
+
+<!-- GYM SERVICES -->
+<section id="gym-services" class="bg-gray-900 text-white py-12 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">💪 Our Gym Services</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Service Card -->
+      <div class="bg-gray-800 rounded shadow p-4 text-center">
+        <img src="https://via.placeholder.com/300x200" alt="Personal Training" class="w-full mb-4 rounded">
+        <h3 class="text-xl font-semibold mb-2">Personal Training</h3>
+        <p>One-on-one sessions tailored to your fitness goals. Expert coaches guide every rep.</p>
+      </div>
+
+      <div class="bg-gray-800 rounded shadow p-4 text-center">
+        <img src="https://via.placeholder.com/300x200" alt="Group Classes" class="w-full mb-4 rounded">
+        <h3 class="text-xl font-semibold mb-2">Group Classes</h3>
+        <p>Fun, high-energy classes like HIIT, Yoga, Zumba – great for motivation and fat burning.</p>
+      </div>
+
+      <div class="bg-gray-800 rounded shadow p-4 text-center">
+        <img src="https://via.placeholder.com/300x200" alt="Weight Training" class="w-full mb-4 rounded">
+        <h3 class="text-xl font-semibold mb-2">Strength & Cardio</h3>
+        <p>Train with modern equipment to build muscle, increase endurance and sculpt your body.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gym-pricing" class="bg-gray-800 text-white py-12 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">🏷️ Pricing Plans</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div class="bg-gray-700 p-6 rounded-lg shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Daily Access</h3>
+        <p class="text-3xl font-bold mb-2">R50</p>
+        <p>Ideal for short-term visitors or casual workouts.</p>
+      </div>
+      <div class="bg-blue-600 p-6 rounded-lg shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Monthly Membership</h3>
+        <p class="text-3xl font-bold mb-2">R300</p>
+        <p>Full access + 1 personal coaching session.</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg shadow text-center">
+        <h3 class="text-xl font-semibold mb-2">Personal Training</h3>
+        <p class="text-3xl font-bold mb-2">R150/session</p>
+        <p>One-on-one focused sessions with a certified coach.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gym-testimonials" class="bg-gray-900 text-white py-12 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8">🗣️ What Our Members Say</h2>
+    <blockquote class="italic text-lg mb-4">
+      “Surge Gym helped me lose 10kg in 3 months. The coaches are amazing!” – <strong>Thabo M.</strong>
+    </blockquote>
+    <blockquote class="italic text-lg">
+      “Modern equipment, great vibe, and I love the group classes!” – <strong>Lerato K.</strong>
+    </blockquote>
+  </div>
+</section>
+
+<section id="gym-gallery" class="bg-gray-800 text-white py-12 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">📸 Gallery</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <img src="https://via.placeholder.com/300x200" alt="Gym Image 1" class="w-full h-auto rounded shadow">
+      <img src="https://via.placeholder.com/300x200" alt="Gym Image 2" class="w-full h-auto rounded shadow">
+      <img src="https://via.placeholder.com/300x200" alt="Gym Image 3" class="w-full h-auto rounded shadow">
+    </div>
+  </div>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/27821234567?text=Hi%20I'm%20interested%20in%20your%20services"
+   class="fixed bottom-4 right-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition"
+   target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20.52 3.48a11.93 11.93 0 00-17 16.82L2 22l1.76-.52A11.93 11.93 0 0020.52 3.48zm-5.2 13.13c-.24.68-1.4 1.26-1.94 1.34s-1.1.2-3.64-1.1a11.47 11.47 0 01-3.47-3.47c-1.3-2.54-1.34-3.26-1.1-3.64s.66-1.7 1.34-1.94c.4-.14.9-.1 1.36.14s1.5 1 1.76 1.42.26.6.18.82a8.67 8.67 0 01-.58 1.02c-.1.16-.2.34-.08.52a6.74 6.74 0 001.66 2.2 6.74 6.74 0 002.2 1.66c.18.12.36.02.52-.08.3-.2.82-.48 1.02-.58.22-.08.46-.02.82.18s1.02 1.08 1.42 1.76.28.96.14 1.36z"/>
+  </svg>
+</a>
+
+</body>
+</html>
